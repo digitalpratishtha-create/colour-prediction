@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Prediction Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🎨 Color Prediction</h1>
+
+  <div class="balance">
+    Balance: ₹<span id="balance">1000</span>
+  </div>
+
+  <div class="timer">
+    Time Left: <span id="time">30</span>s
+  </div>
+
+  <div class="colors">
+    <button class="red" onclick="selectColor('red')">Red</button>
+    <button class="green" onclick="selectColor('green')">Green</button>
+    <button class="violet" onclick="selectColor('violet')">Violet</button>
+  </div>
+
+  <button class="predict" onclick="predict()">Predict</button>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

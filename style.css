@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.balance, .timer {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.colors button {
+  width: 30%;
+  padding: 15px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.red { background: #e74c3c; }
+.green { background: #2ecc71; }
+.violet { background: #9b59b6; }
+
+.predict {
+  width: 100%;
+  padding: 15px;
+  background: gold;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+}
